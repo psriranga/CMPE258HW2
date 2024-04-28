@@ -1,0 +1,10 @@
+pillow
+numpy
+configargparse
+torch
+torchvision
+matplotlib
+tensorboard
+scikit-learn
+tqdm
+albumentations
