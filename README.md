@@ -1,3 +1,11 @@
+# Code Modifications
+* Model Support: Added support for ResNet50, VGG16, and Wide ResNet models, allowing flexibility in model selection based on the task requirements.
+* Training Logic Optimization: Enhanced the training logic for improved accuracy, including the use of batch normalization, dropout layers, and appropriate activation functions to stabilize and enhance training.
+* Learning Rate Scheduler: Implemented a learning rate scheduler to dynamically adjust the learning rate during training, leading to better convergence and optimization.
+* Checkpointing: Added functionality to resume training from a saved checkpoint, ensuring continuity in training sessions and facilitating model retraining without starting from scratch.
+* Code Organization: Structured the code into modular components, such as data loading utilities, model creation, training loop, and result interpretation, for better readability and maintainability.
+* Model Summary: Utilized the torchinfo package to generate a comprehensive summary of the model architecture, including input and output sizes, number of parameters, and trainable layers.
+
 # MultiModalClassifier
 This is a project repo for multi-modal deep learning classifier with popular models from Tensorflow and Pytorch. The goal of these baseline models is to provide a template to build on and can be a starting point for any new ideas, applications. If you want to learn basics of ML and DL, please refer this repo: https://github.com/lkk688/DeepDataMiningLearning.
 
